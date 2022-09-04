@@ -8,23 +8,23 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Guards;
+namespace HyperfExtension\Auth\Guards;
 
 use Hyperf\Contract\SessionInterface;
 use Hyperf\HttpMessage\Cookie\Cookie;
 use Hyperf\Utils\Str;
 use Hyperf\Utils\Traits\Macroable;
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
-use HyperfExt\Auth\Contracts\StatefulGuardInterface;
-use HyperfExt\Auth\Contracts\SupportsBasicAuthInterface;
-use HyperfExt\Auth\Contracts\UserProviderInterface;
-use HyperfExt\Auth\EventHelpers;
-use HyperfExt\Auth\Events\Logout;
-use HyperfExt\Auth\Exceptions\AuthenticationException;
-use HyperfExt\Auth\GuardHelpers;
-use HyperfExt\Auth\Recaller;
-use HyperfExt\Cookie\Contract\CookieJarInterface;
-use HyperfExt\Hashing\Hash;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Contracts\StatefulGuardInterface;
+use HyperfExtension\Auth\Contracts\SupportsBasicAuthInterface;
+use HyperfExtension\Auth\Contracts\UserProviderInterface;
+use HyperfExtension\Auth\EventHelpers;
+use HyperfExtension\Auth\Events\Logout;
+use HyperfExtension\Auth\Exceptions\AuthenticationException;
+use HyperfExtension\Auth\GuardHelpers;
+use HyperfExtension\Auth\Recaller;
+use HyperfExtension\Cookie\Contract\CookieJarInterface;
+use HyperfExtension\Hashing\Hash;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use Psr\Http\Message\ServerRequestInterface;
 

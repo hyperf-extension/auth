@@ -8,15 +8,15 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Aspect;
+namespace HyperfExtension\Auth\Aspect;
 
 use Hyperf\Di\Annotation\Aspect;
 use Hyperf\Di\Annotation\Inject;
 use Hyperf\Di\Aop\AbstractAspect;
 use Hyperf\Di\Aop\ProceedingJoinPoint;
-use HyperfExt\Auth\Annotations\Auth;
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
-use HyperfExt\Auth\Exceptions\AuthenticationException;
+use HyperfExtension\Auth\Annotations\Auth;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Exceptions\AuthenticationException;
 
 /**
  * @Aspect

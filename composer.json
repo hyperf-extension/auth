@@ -24,7 +24,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "HyperfExt\\Auth\\": "src/"
+            "HyperfExtension\\Auth\\": "src/"
         }
     },
     "autoload-dev": {
@@ -65,7 +65,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "HyperfExt\\Auth\\ConfigProvider"
+            "config": "HyperfExtension\\Auth\\ConfigProvider"
         }
     }
 }

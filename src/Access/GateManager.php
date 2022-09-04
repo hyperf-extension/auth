@@ -8,14 +8,14 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Access;
+namespace HyperfExtension\Auth\Access;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Di\Annotation\AnnotationCollector;
-use HyperfExt\Auth\Annotations\Policy;
-use HyperfExt\Auth\Contracts\Access\GateManagerInterface;
-use HyperfExt\Auth\Contracts\AuthManagerInterface;
-use HyperfExt\Auth\Events\GateManagerResolved;
+use HyperfExtension\Auth\Annotations\Policy;
+use HyperfExtension\Auth\Contracts\Access\GateManagerInterface;
+use HyperfExtension\Auth\Contracts\AuthManagerInterface;
+use HyperfExtension\Auth\Events\GateManagerResolved;
 use Psr\Container\ContainerInterface;
 use Psr\EventDispatcher\EventDispatcherInterface;
 

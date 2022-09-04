@@ -8,17 +8,17 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\UserProviders;
+namespace HyperfExtension\Auth\UserProviders;
 
 use Hyperf\Database\ConnectionInterface;
 use Hyperf\Database\ConnectionResolverInterface;
 use Hyperf\Utils\Contracts\Arrayable;
 use Hyperf\Utils\Str;
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
-use HyperfExt\Auth\Contracts\UserProviderInterface;
-use HyperfExt\Auth\GenericUser;
-use HyperfExt\Hashing\Contract\DriverInterface as HasherInterface;
-use HyperfExt\Hashing\Contract\HashInterface;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Contracts\UserProviderInterface;
+use HyperfExtension\Auth\GenericUser;
+use HyperfExtension\Hashing\Contract\DriverInterface as HasherInterface;
+use HyperfExtension\Hashing\Contract\HashInterface;
 
 class DatabaseUserProvider implements UserProviderInterface
 {

@@ -8,21 +8,21 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Guards;
+namespace HyperfExtension\Auth\Guards;
 
 use BadMethodCallException;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Utils\Traits\Macroable;
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
-use HyperfExt\Auth\Contracts\StatelessGuardInterface;
-use HyperfExt\Auth\Contracts\UserProviderInterface;
-use HyperfExt\Auth\EventHelpers;
-use HyperfExt\Auth\GuardHelpers;
-use HyperfExt\Jwt\Exceptions\JwtException;
-use HyperfExt\Jwt\Exceptions\UserNotDefinedException;
-use HyperfExt\Jwt\Jwt;
-use HyperfExt\Jwt\JwtFactory;
-use HyperfExt\Jwt\Payload;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Contracts\StatelessGuardInterface;
+use HyperfExtension\Auth\Contracts\UserProviderInterface;
+use HyperfExtension\Auth\EventHelpers;
+use HyperfExtension\Auth\GuardHelpers;
+use HyperfExtension\Jwt\Exceptions\JwtException;
+use HyperfExtension\Jwt\Exceptions\UserNotDefinedException;
+use HyperfExtension\Jwt\Jwt;
+use HyperfExtension\Jwt\JwtFactory;
+use HyperfExtension\Jwt\Payload;
 use Psr\Container\ContainerInterface;
 use Psr\EventDispatcher\EventDispatcherInterface;
 

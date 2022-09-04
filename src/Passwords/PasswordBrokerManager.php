@@ -8,13 +8,13 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Passwords;
+namespace HyperfExtension\Auth\Passwords;
 
 use Hyperf\Contract\ConfigInterface;
-use HyperfExt\Auth\Contracts\AuthManagerInterface;
-use HyperfExt\Auth\Contracts\PasswordBrokerInterface;
-use HyperfExt\Auth\Contracts\PasswordBrokerManagerInterface;
-use HyperfExt\Auth\Contracts\TokenRepositoryInterface;
+use HyperfExtension\Auth\Contracts\AuthManagerInterface;
+use HyperfExtension\Auth\Contracts\PasswordBrokerInterface;
+use HyperfExtension\Auth\Contracts\PasswordBrokerManagerInterface;
+use HyperfExtension\Auth\Contracts\TokenRepositoryInterface;
 use InvalidArgumentException;
 use Psr\Container\ContainerInterface;
 

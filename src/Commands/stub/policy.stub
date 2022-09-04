@@ -10,8 +10,8 @@ declare(strict_types=1);
  */
 namespace %NAMESPACE%;
 
-use HyperfExt\Auth\Access\HandlesAuthorization;
-use HyperfExt\Auth\Annotation\Policy;
+use HyperfExtension\Auth\Access\HandlesAuthorization;
+use HyperfExtension\Auth\Annotation\Policy;
 %USES%
 
 /**

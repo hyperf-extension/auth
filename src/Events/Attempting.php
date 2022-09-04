@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Events;
+namespace HyperfExtension\Auth\Events;
 
 class Attempting
 {

@@ -8,10 +8,10 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Access;
+namespace HyperfExtension\Auth\Access;
 
 use Hyperf\Utils\Contracts\Arrayable;
-use HyperfExt\Auth\Exceptions\AuthorizationException;
+use HyperfExtension\Auth\Exceptions\AuthorizationException;
 
 class Response implements Arrayable
 {

@@ -8,14 +8,14 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth;
+namespace HyperfExtension\Auth;
 
-use HyperfExt\Auth\Access\GateManager;
-use HyperfExt\Auth\Commands\GenAuthPolicyCommand;
-use HyperfExt\Auth\Contracts\Access\GateManagerInterface;
-use HyperfExt\Auth\Contracts\AuthManagerInterface;
-use HyperfExt\Auth\Contracts\PasswordBrokerManagerInterface;
-use HyperfExt\Auth\Passwords\PasswordBrokerManager;
+use HyperfExtension\Auth\Access\GateManager;
+use HyperfExtension\Auth\Commands\GenAuthPolicyCommand;
+use HyperfExtension\Auth\Contracts\Access\GateManagerInterface;
+use HyperfExtension\Auth\Contracts\AuthManagerInterface;
+use HyperfExtension\Auth\Contracts\PasswordBrokerManagerInterface;
+use HyperfExtension\Auth\Passwords\PasswordBrokerManager;
 
 class ConfigProvider
 {

@@ -8,14 +8,14 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Passwords;
+namespace HyperfExtension\Auth\Passwords;
 
 use Closure;
 use Hyperf\Utils\Arr;
-use HyperfExt\Auth\Contracts\CanResetPasswordInterface;
-use HyperfExt\Auth\Contracts\PasswordBrokerInterface;
-use HyperfExt\Auth\Contracts\TokenRepositoryInterface;
-use HyperfExt\Auth\Contracts\UserProviderInterface;
+use HyperfExtension\Auth\Contracts\CanResetPasswordInterface;
+use HyperfExtension\Auth\Contracts\PasswordBrokerInterface;
+use HyperfExtension\Auth\Contracts\TokenRepositoryInterface;
+use HyperfExtension\Auth\Contracts\UserProviderInterface;
 use UnexpectedValueException;
 
 class PasswordBroker implements PasswordBrokerInterface

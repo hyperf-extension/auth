@@ -8,10 +8,10 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Access;
+namespace HyperfExtension\Auth\Access;
 
 use Hyperf\Utils\ApplicationContext;
-use HyperfExt\Auth\Contracts\Access\GateManagerInterface;
+use HyperfExtension\Auth\Contracts\Access\GateManagerInterface;
 
 trait Authorizable
 {

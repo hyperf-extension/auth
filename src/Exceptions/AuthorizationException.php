@@ -8,10 +8,10 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Exceptions;
+namespace HyperfExtension\Auth\Exceptions;
 
 use Exception;
-use HyperfExt\Auth\Access\Response;
+use HyperfExtension\Auth\Access\Response;
 use Throwable;
 
 class AuthorizationException extends Exception

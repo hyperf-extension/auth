@@ -8,9 +8,9 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Events;
+namespace HyperfExtension\Auth\Events;
 
-use HyperfExt\Auth\Contracts\AuthManagerInterface;
+use HyperfExtension\Auth\Contracts\AuthManagerInterface;
 
 class AuthManagerResolved
 {

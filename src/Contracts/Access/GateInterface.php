@@ -8,10 +8,10 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Contracts\Access;
+namespace HyperfExtension\Auth\Contracts\Access;
 
-use HyperfExt\Auth\Access\Response;
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Access\Response;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
 
 interface GateInterface
 {

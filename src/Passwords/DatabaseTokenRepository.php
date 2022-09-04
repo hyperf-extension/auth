@@ -8,17 +8,17 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Passwords;
+namespace HyperfExtension\Auth\Passwords;
 
 use Carbon\Carbon;
 use Hyperf\Database\ConnectionInterface;
 use Hyperf\Database\ConnectionResolverInterface;
 use Hyperf\Database\Query\Builder;
 use Hyperf\DbConnection\Connection;
-use HyperfExt\Auth\Contracts\CanResetPasswordInterface;
-use HyperfExt\Auth\Contracts\TokenRepositoryInterface;
-use HyperfExt\Hashing\Contract\DriverInterface as HasherInterface;
-use HyperfExt\Hashing\Contract\HashInterface;
+use HyperfExtension\Auth\Contracts\CanResetPasswordInterface;
+use HyperfExtension\Auth\Contracts\TokenRepositoryInterface;
+use HyperfExtension\Hashing\Contract\DriverInterface as HasherInterface;
+use HyperfExtension\Hashing\Contract\HashInterface;
 
 class DatabaseTokenRepository implements TokenRepositoryInterface
 {

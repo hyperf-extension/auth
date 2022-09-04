@@ -8,10 +8,10 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Middlewares;
+namespace HyperfExtension\Auth\Middlewares;
 
-use HyperfExt\Auth\Contracts\AuthManagerInterface;
-use HyperfExt\Auth\Exceptions\AuthenticationException;
+use HyperfExtension\Auth\Contracts\AuthManagerInterface;
+use HyperfExtension\Auth\Exceptions\AuthenticationException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;

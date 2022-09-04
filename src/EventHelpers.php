@@ -8,17 +8,17 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth;
+namespace HyperfExtension\Auth;
 
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
-use HyperfExt\Auth\Events\Attempting;
-use HyperfExt\Auth\Events\Authenticated;
-use HyperfExt\Auth\Events\CurrentDeviceLogout;
-use HyperfExt\Auth\Events\Failed;
-use HyperfExt\Auth\Events\Login;
-use HyperfExt\Auth\Events\Logout;
-use HyperfExt\Auth\Events\OtherDeviceLogout;
-use HyperfExt\Auth\Events\Validated;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Events\Attempting;
+use HyperfExtension\Auth\Events\Authenticated;
+use HyperfExtension\Auth\Events\CurrentDeviceLogout;
+use HyperfExtension\Auth\Events\Failed;
+use HyperfExtension\Auth\Events\Login;
+use HyperfExtension\Auth\Events\Logout;
+use HyperfExtension\Auth\Events\OtherDeviceLogout;
+use HyperfExtension\Auth\Events\Validated;
 
 trait EventHelpers
 {

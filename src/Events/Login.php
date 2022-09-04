@@ -8,9 +8,9 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Events;
+namespace HyperfExtension\Auth\Events;
 
-use HyperfExt\Auth\Contracts\AuthenticatableInterface;
+use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
 
 class Login
 {

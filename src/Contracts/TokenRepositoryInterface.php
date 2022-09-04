@@ -8,9 +8,9 @@ declare(strict_types=1);
  * @contact  admin@ilover.me
  * @license  https://github.com/hyperf-extension/auth/blob/master/LICENSE
  */
-namespace HyperfExt\Auth\Contracts;
+namespace HyperfExtension\Auth\Contracts;
 
-use HyperfExt\Auth\Contracts\CanResetPasswordInterface as CanResetPasswordContract;
+use HyperfExtension\Auth\Contracts\CanResetPasswordInterface as CanResetPasswordContract;
 
 interface TokenRepositoryInterface
 {
