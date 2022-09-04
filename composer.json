@@ -35,7 +35,7 @@
     "require": {
         "php": ">=8.0",
         "ext-swoole": ">=4.5",
-        "hyperf-extension/hashing": "~3.0.0",
+        "hyperf-extension/hashing": "*",
         "hyperf/command": "~3.0.0",
         "hyperf/config": "~3.0.0",
         "hyperf/database": "~3.0.0",
