@@ -23,7 +23,7 @@ use HyperfExtension\Auth\Exceptions\AuthenticationException;
  */
 class AuthAspect extends AbstractAspect
 {
-    public $annotations = [
+    public array $annotations = [
         Auth::class,
     ];
 

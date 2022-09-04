@@ -41,7 +41,8 @@
         "hyperf/database": "~3.0.0",
         "hyperf/db-connection": "~3.0.0",
         "hyperf/di": "~3.0.0",
-        "hyperf/framework": "~3.0.0"
+        "hyperf/framework": "~3.0.0",
+		"hyperf/macroable": "~3.0.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
