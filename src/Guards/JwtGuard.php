@@ -12,7 +12,7 @@ namespace HyperfExtension\Auth\Guards;
 
 use BadMethodCallException;
 use Hyperf\HttpServer\Contract\RequestInterface;
-use Hyperf\Utils\Traits\Macroable;
+use Hyperf\Macroable\Macroable;
 use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
 use HyperfExtension\Auth\Contracts\StatelessGuardInterface;
 use HyperfExtension\Auth\Contracts\UserProviderInterface;
