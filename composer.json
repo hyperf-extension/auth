@@ -1,5 +1,5 @@
 {
-    "name": "hyperf-extension/auth",
+    "name": "vfowo/auth",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -34,7 +34,7 @@
     },
     "require": {
         "php": ">=8.0",
-        "hyperf-extension/hashing": "*",
+        "hyperf-extension/hashing": "~3.0.0",
         "hyperf/command": "~3.0.0",
         "hyperf/config": "~3.0.0",
         "hyperf/database": "~3.0.0",
@@ -52,8 +52,8 @@
     },
     "suggest": {
         "hyperf/session": "Required to use session guard.",
-        "hyperf-extension/cookie": "Required to use session guard.",
-        "hyperf-extension/jwt": "Required to use JWT guard."
+        "hyperf-extension/cookie": "Required to use session guard.--Not Support Temporary",
+        "vfowo/jwt": "Required to use JWT guard."
     },
     "config": {
         "sort-packages": true
