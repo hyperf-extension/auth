@@ -20,6 +20,10 @@
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Gently",
+            "email": "xiangjihan@gmail.com"
         }
     ],
     "autoload": {
