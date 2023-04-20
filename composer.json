@@ -1,5 +1,5 @@
 {
-    "name": "vfowo/auth",
+    "name": "hyperf-extension/auth",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -57,7 +57,7 @@
     "suggest": {
         "hyperf/session": "Required to use session guard.",
         "hyperf-extension/cookie": "Required to use session guard.--Not Support Temporary",
-        "vfowo/jwt": "Required to use JWT guard."
+        "hyperf-extension/jwt": "Required to use JWT guard."
     },
     "config": {
         "sort-packages": true
