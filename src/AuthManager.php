@@ -20,6 +20,8 @@ use InvalidArgumentException;
 use Psr\Container\ContainerInterface;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
+use function Hyperf\Support\make;
+
 class AuthManager implements AuthManagerInterface
 {
     use ContextHelpers;

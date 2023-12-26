@@ -12,10 +12,12 @@ namespace HyperfExtension\Auth\Commands;
 
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Contract\ConfigInterface;
-use Hyperf\Utils\CodeGen\Project;
-use Hyperf\Utils\Str;
+use Hyperf\CodeParser\Project;
+use Hyperf\Stringable\Str;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
+
+use function Hyperf\Support\class_basename;
 
 class GenAuthPolicyCommand extends HyperfCommand
 {

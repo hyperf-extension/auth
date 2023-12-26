@@ -12,8 +12,8 @@ namespace HyperfExtension\Auth\UserProviders;
 
 use Hyperf\Database\ConnectionInterface;
 use Hyperf\Database\ConnectionResolverInterface;
-use Hyperf\Utils\Contracts\Arrayable;
-use Hyperf\Utils\Str;
+use Hyperf\Contract\Arrayable;
+use Hyperf\Stringable\Str;
 use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
 use HyperfExtension\Auth\Contracts\UserProviderInterface;
 use HyperfExtension\Auth\GenericUser;

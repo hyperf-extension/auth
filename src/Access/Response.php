@@ -10,9 +10,10 @@ declare(strict_types=1);
  */
 namespace HyperfExtension\Auth\Access;
 
+use Hyperf\Contract\Arrayable;
 use HyperfExtension\Auth\Exceptions\AuthorizationException;
 
-class Response
+class Response implements Arrayable
 {
     /**
      * Indicates whether the response was allowed.

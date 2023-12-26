@@ -19,6 +19,9 @@ use HyperfExtension\Auth\Events\GateManagerResolved;
 use Psr\Container\ContainerInterface;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
+use function Hyperf\Support\call;
+use function Hyperf\Support\make;
+
 /**
  * @method \HyperfExtension\Auth\Contracts\Access\GateInterface define(string $ability, callable|string $callback)               Define a new ability.
  * @method \HyperfExtension\Auth\Contracts\Access\GateInterface resource(string $name, string $class, ?array $abilities = null)  Define abilities for a resource.
