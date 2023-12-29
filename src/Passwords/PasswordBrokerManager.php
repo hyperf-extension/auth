@@ -18,6 +18,8 @@ use HyperfExtension\Auth\Contracts\TokenRepositoryInterface;
 use InvalidArgumentException;
 use Psr\Container\ContainerInterface;
 
+use function Hyperf\Support\make;
+
 /**
  * @mixin \HyperfExtension\Auth\Contracts\PasswordBrokerInterface
  * @method string sendResetLink(array $credentials)

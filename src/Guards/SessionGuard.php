@@ -12,7 +12,7 @@ namespace HyperfExtension\Auth\Guards;
 
 use Hyperf\Contract\SessionInterface;
 use Hyperf\HttpMessage\Cookie\Cookie;
-use Hyperf\Utils\Str;
+use Hyperf\Stringable\Str;
 use Hyperf\Macroable\Macroable;
 use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
 use HyperfExtension\Auth\Contracts\StatefulGuardInterface;
@@ -27,6 +27,8 @@ use HyperfExtension\Cookie\Contract\CookieJarInterface;
 use HyperfExtension\Hashing\Hash;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use Psr\Http\Message\ServerRequestInterface;
+
+use function Hyperf\Tappable\tap;
 
 class SessionGuard implements StatefulGuardInterface, SupportsBasicAuthInterface
 {

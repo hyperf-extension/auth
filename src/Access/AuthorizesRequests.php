@@ -10,7 +10,7 @@ declare(strict_types=1);
  */
 namespace HyperfExtension\Auth\Access;
 
-use Hyperf\Utils\ApplicationContext;
+use Hyperf\Context\ApplicationContext;
 use HyperfExtension\Auth\Contracts\Access\GateManagerInterface;
 use HyperfExtension\Auth\Contracts\AuthenticatableInterface;
 
